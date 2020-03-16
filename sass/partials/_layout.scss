@@ -1,0 +1,14 @@
+.container1{
+    display: grid;
+    grid-template-columns: 20% 50%;
+    grid-gap: 100px;
+    margin-left: 10%;
+
+}
+
+.container2{
+    display: grid;
+    grid-template-columns: auto auto auto;
+    // grid-gap: 40px;
+    margin-left: 5%;
+}
