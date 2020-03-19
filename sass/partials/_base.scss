@@ -22,7 +22,7 @@ a{
 
 nav{
     width: 100%;
-    height: 8%;
+    height: 10%;
     background-color: #101519;
     position: fixed;;
     color: black;
@@ -51,7 +51,7 @@ nav div{
 
 ///////////////////////////////////////////////////////////////////////////////////
 
-// styling of the heading section 
+// styling of the header section 
 
 ///////////////////////////////////////////////////////////////////////////////////
 
@@ -61,7 +61,7 @@ nav div{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 55.5em; 
+    height: 60.5em; 
 }
 
 .head-box{
@@ -78,38 +78,48 @@ nav div{
 }
 
 .name{
-    padding-left:23% ;
+    // padding-left:22% ;
+    text-align: center;
     padding-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
 
 .occupation{
-    padding-left: 25%;
+    text-align: center;
+    
     padding-bottom: 20px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
+
+// about me section 
 
 .aboutme-box{
     background-color: rgba(8, 8, 8, 0.603);
-    height: 250px;
+    height: 350px;
     width: 60%;
     color: white;
-    
     margin-top: 8%;
     margin-left: 20%;
     margin-right: 25%;
+}
+.imgofme{
+    height: 212px;
+    width: 229px;
+    border-radius: 70%;
+    margin-left: 49px;
 }
 
 .para-aboutme{
     font-family: OCR A Std, monospace;
     font-size: 17px;
     padding-left: 3%;
-    padding-right: 3%;
+    margin-right: 18%;
 }
 
 
 
 
-// styling of section-1
+
 
 
 
