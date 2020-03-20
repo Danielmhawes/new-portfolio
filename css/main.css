@@ -14,7 +14,7 @@
 
 .container3 {
   display: grid;
-  grid-template-columns: auto auto;
+  grid-template-columns: 53% 53%;
   grid-gap: 20px;
   margin-top: 5%;
   margin-left: 5%;
@@ -95,15 +95,15 @@ nav div {
 
 .aboutme-box {
   background-color: rgba(8, 8, 8, 0.747);
-  height: 350px;
-  width: 60%;
+  height: 370px;
+  width: 70%;
   color: white;
   margin-top: 13%;
-  margin-left: 20%;
-  margin-right: 25%; }
+  margin-left: 16%;
+  margin-right: 16%; }
 
 .imgofme {
-  height: 212px;
+  height: 200px;
   width: 229px;
   border-radius: 70%;
   margin-left: 49px; }
@@ -148,7 +148,11 @@ nav div {
   border-radius: 5%;
   padding-left: 10%;
   padding-right: 10%;
+  height: 450px;
   width: 90%; }
+
+.proj-img {
+  width: 100%; }
 
 .btn1 {
   margin-left: 38%;
