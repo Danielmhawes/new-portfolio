@@ -8,6 +8,15 @@
   display: grid;
   grid-template-columns: 33% 33% 33%;
   grid-gap: 40px;
+  margin-top: 5%;
+  margin-left: 5%;
+  margin-right: 5%; }
+
+.container3 {
+  display: grid;
+  grid-template-columns: auto auto;
+  grid-gap: 20px;
+  margin-top: 5%;
   margin-left: 5%;
   margin-right: 5%; }
 
@@ -19,11 +28,11 @@ body {
   top: 0;
   margin: 0;
   padding: 0;
-  background-color: #dbc596;
   background-image: url(../img/hero.jpg);
   background-attachment: fixed;
   background-repeat: no-repeat;
-  background-size: cover; }
+  background-size: cover;
+  color: white; }
 
 a {
   text-decoration: none;
@@ -32,8 +41,17 @@ a {
 a:hover {
   color: grey; }
 
+.headings {
+  text-align: center;
+  padding-top: 5%;
+  font-size: 35px;
+  color: white;
+  font-family: 'Kaushan Script', cursive; }
+
 nav {
   width: 100%;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 20px;
   height: 8%;
   background-color: #101519;
   position: fixed;
@@ -51,22 +69,16 @@ nav div {
 .nav div :hover {
   color: black; }
 
-.headings {
-  text-align: center;
-  padding-top: 34px;
-  font-size: 35px; }
-
 .main-head {
-  background-image: url(../img/hero.jpg);
-  background-attachment: fixed;
-  background-repeat: no-repeat;
-  background-size: cover;
+  font-family: 'Kaushan Script', cursive;
+  height: 700px;
   width: 100%; }
 
 .head-box {
-  padding-top: 133px; }
+  padding-top: 13%; }
 
 .head {
+  margin-top: 7%;
   margin-left: 35%;
   margin-right: 35%;
   color: white; }
@@ -74,21 +86,19 @@ nav div {
 .name {
   font-size: 50px;
   text-align: center;
-  padding-bottom: 10px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  padding-bottom: 10px; }
 
 .occupation {
   text-align: center;
   font-size: 30px;
-  padding-bottom: 20px;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif; }
+  padding-bottom: 20px; }
 
 .aboutme-box {
   background-color: rgba(8, 8, 8, 0.747);
   height: 350px;
   width: 60%;
   color: white;
-  margin-top: 8%;
+  margin-top: 13%;
   margin-left: 20%;
   margin-right: 25%; }
 
@@ -101,18 +111,19 @@ nav div {
 .para-aboutme {
   font-family: OCR A Std, monospace;
   font-size: 20px;
+  padding-top: 4%;
   padding-left: 3%;
   margin-right: 18%; }
 
 .section-2 {
+  margin-top: 10%;
   color: white;
-  width: 100%;
-  height: 35.5em; }
+  width: 100%; }
 
-.edu-sub-headings {
+.sub-headings {
   margin-top: 8%;
-  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
-  font-size: 20px;
+  font-family: 'Kaushan Script', cursive;
+  font-size: 25px;
   text-align: center; }
 
 .edu-img {
@@ -122,11 +133,22 @@ nav div {
 
 .edu-containers {
   background-color: rgba(8, 8, 8, 0.747);
+  font-family: monospace;
+  font-size: 20px;
   border-radius: 15%;
   padding-left: 10%;
   padding-right: 10%;
   width: 90%;
-  height: 900px; }
+  height: 1200px; }
+
+.project-containers {
+  background-color: rgba(8, 8, 8, 0.747);
+  font-family: monospace;
+  font-size: 20px;
+  border-radius: 5%;
+  padding-left: 10%;
+  padding-right: 10%;
+  width: 90%; }
 
 .btn1 {
   margin-left: 38%;
