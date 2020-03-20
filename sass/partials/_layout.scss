@@ -1,19 +1,16 @@
 
-.container{
-    display: grid;
-    grid-template-columns: auto auto auto auto auto auto;
-}
+
 .container1{
     display: grid;
     grid-template-columns: 20% 70%;
     grid-gap: 100px;
     margin-left: 2%;
-
 }
 
 .container2{
     display: grid;
-    grid-template-columns: auto auto auto;
-    // grid-gap: 40px;
-    margin-left: 10%;
+    grid-template-columns: 33% 33% 33%;
+    grid-gap: 40px;
+    margin-left: 5%;
+    margin-right: 5%;
 }

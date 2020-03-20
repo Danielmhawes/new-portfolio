@@ -7,10 +7,17 @@ body{
     margin: 0;
     padding: 0;
     background-color: #dbc596;
+    background-image: url(../img/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover; 
 }
 a{
     text-decoration: none;
     color: white;
+}
+a:hover{
+    color: grey;
 }
 
 ////////////////////////////////////////////////////////////////////////////
@@ -22,18 +29,17 @@ a{
 
 nav{
     width: 100%;
-    height: 10%;
+    height: 8%;
     background-color: #101519;
     position: fixed;;
     color: black;
 }
 nav div{
     display: inline-flex;
-    padding: 15px;
-    padding-left: 10px;
+    padding-top: 1.1%;
     width: 16%;
     letter-spacing:3%;
-    padding-left: 10%;
+    padding-left: 15%;
     font-size: 20px;
     color: white;
 }
@@ -61,7 +67,6 @@ nav div{
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;
-    height: 60.5em; 
 }
 
 .head-box{
@@ -74,11 +79,11 @@ nav div{
     margin-left: 35%;
     margin-right: 35%;
     color: white;
-    font-size: 20px;
+
 }
 
 .name{
-    // padding-left:22% ;
+    font-size: 50px;
     text-align: center;
     padding-bottom: 10px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
@@ -86,7 +91,7 @@ nav div{
 
 .occupation{
     text-align: center;
-    
+    font-size: 30px;
     padding-bottom: 20px;
     font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
 }
@@ -94,7 +99,7 @@ nav div{
 // about me section 
 
 .aboutme-box{
-    background-color: rgba(8, 8, 8, 0.603);
+    background-color: rgba(8, 8, 8, 0.747);
     height: 350px;
     width: 60%;
     color: white;
@@ -111,42 +116,39 @@ nav div{
 
 .para-aboutme{
     font-family: OCR A Std, monospace;
-    font-size: 17px;
+    font-size: 20px;
     padding-left: 3%;
     margin-right: 18%;
 }
 
+// styling of the education section
 
-
-
-
-
-
-
-
-// styling of section-2 
 .section-2{
-    background-color: #dbc596;
-    background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover;
+    color: white;
     width: 100%;
     height: 35.5em;
     
 }
+.edu-sub-headings{
+    margin-top: 8%;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-size: 20px;
+    text-align: center;
+}
 
 .edu-img{
     width: 216px;
+    margin: 15%;
+
+    border-radius: 50%;
 }
 
-.lfc{
-    padding-right: 40%;
+.edu-containers{
+    background-color: rgba(8, 8, 8, 0.747);
+    border-radius: 15%;
+    padding-left: 10%;
+    padding-right: 10%;
+    width: 90%;
+    height: 900px;
 }
 
-.rlabs{
-    padding-right: 40%;
-}
-
-.rss{
-    padding-right: 40%;
-}
