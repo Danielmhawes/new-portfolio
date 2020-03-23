@@ -24,9 +24,10 @@
 
 .container5 {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-gap: 20px;
-  margin: 5%; }
+  grid-template-columns: 20% 20% 20% 20%;
+  grid-gap: 50px;
+  margin: 5%;
+  background-color: rgba(8, 8, 8, 0.747); }
 
 * {
   box-sizing: border-box;
@@ -47,7 +48,8 @@ a {
   color: white; }
 
 a:hover {
-  color: grey; }
+  color: grey;
+  border-left: 3px black; }
 
 .headings {
   text-align: center;
@@ -182,6 +184,21 @@ nav div {
 .skills-imgs {
   width: 70%;
   padding-top: 7%; }
+
+.section-5 {
+  height: 200px; }
+
+.fa {
+  font-size: 100px;
+  text-align: center; }
+
+.fa-envelope-o {
+  padding-left: 30%; }
+
+.contact {
+  padding-top: 20%;
+  padding-left: 55%;
+  height: 250px; }
 
 .btn1 {
   margin-left: 38%;

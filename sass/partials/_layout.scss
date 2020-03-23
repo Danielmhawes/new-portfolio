@@ -1,4 +1,4 @@
-
+// all the containers and the layout of hows the structure is going to be 
 
 .container1{
     display: grid;
@@ -28,8 +28,10 @@
 }
 .container5{
     display: grid;
-    grid-template-columns: 33% 33% 33%;
-    grid-gap: 20px;
+    grid-template-columns: 20% 20% 20% 20%;
+    grid-gap: 50px;
     margin: 5%;
+    background-color: rgba(8, 8, 8, 0.747);
+    
 
 }

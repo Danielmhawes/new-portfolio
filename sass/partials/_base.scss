@@ -18,6 +18,7 @@ a{
 }
 a:hover{
     color: grey;
+    border-left: 3px black;
 }
 .headings{
     text-align: center;
@@ -219,4 +220,24 @@ nav div{
 .skills-imgs{
     width: 70%;
     padding-top: 7%;
+}
+
+// styling of the contact section 
+
+.section-5{
+    height: 200px;
+
+}
+
+.fa{
+    font-size: 100px;
+    text-align: center;
+}
+.fa-envelope-o{
+    padding-left: 30%;
+}
+.contact{
+    padding-top: 20%;
+    padding-left: 55%;
+    height: 250px;
 }
