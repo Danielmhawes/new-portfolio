@@ -3,14 +3,16 @@
 .container1{
     display: grid;
     grid-template-columns: 20% 70%;
-    grid-gap: 100px;
+    grid-gap: 150px;
     margin-left: 2%;
 }
 .container2{
     display: grid;
     grid-template-columns: 33% 33% 33%;
-    grid-gap: 40px;
-    margin: 5%;
+    grid-gap: 0px;
+    margin-left: 3%;
+   
+
 }
 .container3{
     display: grid;
@@ -29,6 +31,6 @@
     display: grid;
     grid-template-columns: 20% 20% 20% 20%;
     grid-gap: 50px;
-    margin: 5%;
-    background-color: rgba(8, 8, 8, 0.747);
+    margin-left: 10%;
+    margin-top: 5%;
 }

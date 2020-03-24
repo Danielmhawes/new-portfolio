@@ -1,0 +1,71 @@
+// responsive design
+
+//biggest mobile view for devices
+@media only screen and (max-width: 1250px){
+    .container1{
+        display: grid;
+        grid-template-columns: 20% 70%;
+        grid-gap: 150px;
+        margin-left: 1%;
+    }
+    .aboutme-box{
+        background-color: rgba(8, 8, 8, 0.747);
+        height: 400px;
+        width: 70%;
+        color: white;
+        margin-top: 13%;
+        margin-left: 16%;
+        margin-right: 16%;
+    }
+    .imgofme{
+        height: 200px;
+        width: 229px;
+        border-radius: 70%;
+        margin-left: 35px;
+    }
+
+    .para-aboutme{
+        font-family: OCR A Std, monospace;
+        font-size: 20px;
+        padding-top: 4%;
+        padding-left: 3%;
+        margin-right: 18%;
+    }
+
+    .container2{
+        display: grid;
+        grid-template-columns: 33% 33% 33%;
+        grid-gap: 0px;
+        margin-left: 3%;
+    }
+    .edu-img{
+        width: 200px;
+        margin: 10%;
+        border-radius: 50%;
+    }
+    .edu-containers{
+        background-color: rgba(8, 8, 8, 0.747);
+        font-family: monospace;
+        font-size: 20px;
+        border-radius: 15%;
+        padding-left: 10%;
+        padding-right: 10%;
+        width: 90%;
+        height: 1500px;
+    }
+
+    .container5{
+        display: grid;
+        grid-template-columns: 20% 20% 20% 20%;
+        grid-gap: 40px;
+        margin: 3%;
+        background-color: rgba(8, 8, 8, 0.747);
+    }
+    .contact{
+        padding-top: 20%;
+        padding-left: 0%;
+        height: 250px;
+    }
+
+
+}
