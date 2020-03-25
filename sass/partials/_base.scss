@@ -1,30 +1,34 @@
 * {
-    box-sizing: border-box;
+    box-sizing     : border-box;
     scroll-behavior: smooth;
 }
-body{
-    top: 0;
-    margin: 0;
-    padding: 0;
-    background-image: url(../img/hero.jpg);
+
+body {
+    top                  : 0;
+    margin               : 0;
+    padding              : 0;
+    background-image     : url(../img/hero.jpg);
     background-attachment: fixed;
-    background-repeat: no-repeat;
-    background-size: cover; 
-    color: white;
+    background-repeat    : no-repeat;
+    background-size      : cover;
+    color                : white;
 }
-a{
+
+a {
     text-decoration: none;
-    color: white;
+    color          : white;
 }
-a:hover{
-    color: grey;
+
+a:hover {
+    color      : grey;
     border-left: 3px black;
 }
-.headings{
-    text-align: center;
+
+.headings {
+    text-align : center;
     padding-top: 5%;
-    font-size: 35px;
-    color: white;
+    font-size  : 35px;
+    color      : white;
     font-family: 'Kaushan Script', cursive;
 }
 
@@ -33,27 +37,27 @@ a:hover{
 // navigation styling
 
 
-nav{
-    width: 100%;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 20px;
-    height: 8%;
+nav {
+    width           : 100%;
+    font-family     : 'Kaushan Script', cursive;
+    font-size       : 20px;
+    height          : 8%;
     background-color: #101519;
-    padding-left: 8%;
-    padding-right: 8%;
-    position: fixed;
-    color: black;
+    padding-left    : 8%;
+    padding-right   : 8%;
+    position        : fixed;
+    color           : black;
 }
 
-nav div{
-    display: inline-flex;
-    padding-top: 1.1%;
-    width: 19%;
-    letter-spacing:0px;
-    padding-left: 5%;
-    font-size: 20px;
-    color: white;
-    border: 2px white ;
+nav div {
+    display       : inline-flex;
+    padding-top   : 1.1%;
+    width         : 19%;
+    letter-spacing: 0px;
+    padding-left  : 5%;
+    font-size     : 20px;
+    color         : white;
+    border        : 2px white;
 }
 
 
@@ -62,40 +66,40 @@ nav div{
 
 
 
-.main-head{
-    font-family:'Kaushan Script', cursive;
-    height: 700px;
-    width: 100%;
-    
+.main-head {
+    font-family: 'Kaushan Script', cursive;
+    height     : 700px;
+    width      : 100%;
+
 }
 
-.head-box{
+.head-box {
     padding-top: 13%;
-    
+
 }
 
-.head{ 
-    margin-top: 7%;
-    margin-left: 35%;
-    margin-right: 35%;
-    color: white;
-    border: 3px #101519 solid;
+.head {
+    margin-top      : 7%;
+    margin-left     : 35%;
+    margin-right    : 35%;
+    color           : white;
+    border          : 3px #101519 solid;
     background-color: rgba(0, 0, 0, 0.363);
 
 }
 
-.name{
-    font-size: 50px;
-    text-align: center;
+.name {
+    font-size     : 50px;
+    text-align    : center;
     padding-bottom: 10px;
-    
+
 }
 
-.occupation{
-    text-align: center;
-    font-size: 30px;
+.occupation {
+    text-align    : center;
+    font-size     : 30px;
     padding-bottom: 20px;
-    
+
 }
 
 
@@ -104,31 +108,33 @@ nav div{
 
 
 
-.aboutme-box{
+.aboutme-box {
     background-color: rgba(8, 8, 8, 0.747);
-    height: 370px;
-    width: 70%;
-    color: white;
-    margin-top: 13%;
-    margin-left: 16%;
-    margin-right: 16%;
+    height          : 370px;
+    width           : 70%;
+    color           : white;
+    margin-top      : 13%;
+    margin-left     : 16%;
+    margin-right    : 16%;
 }
-    .imgofme{
-        height: 150px;
-        margin-left: 49px;
-    }
-    .myimg{
-        width: 200px;
-        border-radius: 30%;
-    }
 
-    .para-aboutme{
-        font-family: OCR A Std, monospace;
-        font-size: 20px;
-        padding-top: 4%;
-        padding-left: 3%;
-        margin-right: 18%;
-    }
+.imgofme {
+    margin-left: 40%;
+}
+
+.myimg {
+    width        : 170px;
+    height       : 170px;
+    border-radius: 30%;
+}
+
+.para-aboutme {
+    font-family : OCR A Std, monospace;
+    font-size   : 20px;
+    padding-top : 1%;
+    padding-left: 3%;
+    margin-right: 18%;
+}
 
 
 
@@ -136,35 +142,36 @@ nav div{
 
 
 
-.section-2{
+.section-2 {
     margin-top: 10%;
-    color: white;
-    width: 100%;
-    // height: 35.5em;
-    
-}
-.sub-headings{
-    margin-top: 8%;
-    font-family: 'Kaushan Script', cursive;
-    font-size: 25px;
-    text-align: center;
+    color     : white;
+    width     : 100%;
+    // height : 35.5em;
+
 }
 
-.edu-img{
-    width: 216px;
-    margin: 15%;
+.sub-headings {
+    margin-top : 8%;
+    font-family: 'Kaushan Script', cursive;
+    font-size  : 25px;
+    text-align : center;
+}
+
+.edu-img {
+    width        : 216px;
+    margin       : 15%;
     border-radius: 50%;
 }
 
-.edu-containers{
+.edu-containers {
     background-color: rgba(8, 8, 8, 0.747);
-    font-family: monospace;
-    font-size: 20px;
-    border-radius: 15%;
-    padding-left: 10%;
-    padding-right: 10%;
-    width: 90%;
-    height: 1200px;
+    font-family     : monospace;
+    font-size       : 20px;
+    border-radius   : 15%;
+    padding-left    : 10%;
+    padding-right   : 10%;
+    width           : 90%;
+    height          : 1200px;
 }
 
 
@@ -175,17 +182,18 @@ nav div{
 
 
 
-.project-containers{
+.project-containers {
     background-color: rgba(8, 8, 8, 0.747);
-    font-family: monospace;
-    font-size: 20px;
-    border-radius: 5%;
-    padding-left: 10%;
-    padding-right: 10%;
-    height: 450px;
-    width: 90%;
+    font-family     : monospace;
+    font-size       : 20px;
+    border-radius   : 5%;
+    padding-left    : 10%;
+    padding-right   : 10%;
+    height          : 450px;
+    width           : 90%;
 }
-.proj-img{
+
+.proj-img {
     width: 100%;
 }
 
@@ -197,24 +205,28 @@ nav div{
 
 
 
-.section-4{
+.section-4 {
     margin-top: 8%;
-    color: white;
-    width: 100%;
-    
+    color     : white;
+    width     : 100%;
+
 }
-.skill-headings{
+
+.skill-headings {
     margin-top: 5%;
 }
-.skills{
+
+.skills {
     background-color: rgba(8, 8, 8, 0.747);
-    text-align: center;
+    text-align      : center;
 }
-.skills-img{
+
+.skills-img {
     width: 100%;
 }
-.skills-imgs{
-    width: 70%;
+
+.skills-imgs {
+    width      : 70%;
     padding-top: 7%;
 }
 
@@ -222,18 +234,19 @@ nav div{
 // styling of the contact section 
 
 
-.fa{
-    font-size: 100px;
+.fa {
+    font-size : 100px;
     text-align: center;
 }
 
-.contact{
-    padding-top: 20%;
-    text-align: center;
-    height: 250px;
+.contact {
+    padding-top     : 20%;
+    text-align      : center;
+    height          : 250px;
     background-color: rgba(8, 8, 8, 0.747);
 }
-.contact-text{
+
+.contact-text {
     font-size: 15px;
 }
 
@@ -241,11 +254,11 @@ nav div{
 // styling of the footer section 
 
 
-footer{
-    width: 100%;
-    margin-top: 7%;
-    font-size: 18px;
-    height: 25px;
+footer {
+    width           : 100%;
+    margin-top      : 7%;
+    font-size       : 18px;
+    height          : 25px;
     background-color: rgba(8, 8, 8, 0.747);
-    text-align: center;
+    text-align      : center;
 }
