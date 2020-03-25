@@ -2,7 +2,7 @@
 
 
 //biggest mobile view for devices of 1250px
-@media only screen and (max-width: 1250px){
+@media only screen and (max-width: 1300px){
     .container1{
         display: grid;
         grid-template-columns: 20% 70%;
@@ -52,7 +52,7 @@
         padding-left: 10%;
         padding-right: 10%;
         width: 90%;
-        height: 1500px;
+        height: 1300px;
     }
 
     .container5{
@@ -67,7 +67,6 @@
         padding-top: 20%;
         text-align: center;
         height: 250px;
-        
         background-color: rgba(8, 8, 8, 0.747);
     }
 
@@ -76,6 +75,15 @@
 
 // For 1000px devices
 @media only screen and (max-width: 1000px){
+    .head{ 
+        margin-top: 7%;
+        margin-left: 25%;
+        margin-right: 25%;
+        color: white;
+        border: 3px #101519 solid;
+        background-color: rgba(0, 0, 0, 0.363);
+     
+    }
     .container1{
         display: grid;
         grid-template-columns:  100%;
@@ -117,13 +125,12 @@
     .edu-img{
         width: 200px;
         border-radius: 30%;
-        margin-left: 10%;
+        margin-left: 35%;
     }
     .edu-containers{
         background-color: rgba(8, 8, 8, 0.747);
         font-family: monospace;
         font-size: 18px;
-        text-align: center;
         border-radius: 15%;
         padding-left: 10%;
         padding-right: 10%;
@@ -185,17 +192,30 @@
         padding-left: 3%;
         padding-right: 3%;
         position: fixed;
-        
         color: black;
     }
     nav div{
         display: inline-flex;
-        padding-top: 4%;
+        padding-top: 2%;
         width: 19%;
         letter-spacing:0px;
         padding-left: 5%;
         font-size: 16px;
         color: white;
+    }
+    .aboutme-box{
+        background-color: rgba(8, 8, 8, 0.747);
+        height: 800px;
+        width: 85%;
+        color: white;
+        margin-top: 13%;
+        margin-left: 7%;
+        margin-right: 10%;
+    }
+    .edu-img{
+        width: 200px;
+        border-radius: 30%;
+        margin-left: 30%;
     }
 
     .container5{
@@ -219,9 +239,54 @@
         font-size: 70px;
         text-align: center;
     }
-    
 
-    
-    
+}
 
+@media only screen and (max-width: 650px){
+    .aboutme-box{
+        background-color: rgba(8, 8, 8, 0.747);
+        height: 700px;
+        width: 90%;
+        color: white;
+        margin-top: 13%;
+        margin-left: 5%;
+        margin-right: 10%;
+    }
+    .imgofme{
+        height: 120px;
+        margin-left: 33%;
+    }
+    .myimg{
+        width: 170px;
+        border-radius: 30%;
+    }
+    .para-aboutme{
+        font-family: OCR A Std, monospace;
+        font-size: 17px;
+        padding-top: 0px;
+        padding-left: 16%;
+        margin-right: 16%;
+    }
+    .container2{
+        display: grid;
+        grid-template-columns: 100%;
+        margin-left: 5%;
+        margin-right:5%
+    }
+    .edu-img{
+        width: 170px;
+        border-radius: 30%;
+        margin-left: 27%;
+    }
+    .edu-containers{
+        background-color: rgba(8, 8, 8, 0.747);
+        font-family: monospace;
+        font-size: 17px;
+        border-radius: 15%;
+        padding-left: 7%;
+        padding-right: 7%;
+        margin-bottom: 10%;
+        width: 100%;
+        height: 1000px;
+    }
 }
