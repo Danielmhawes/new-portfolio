@@ -228,6 +228,7 @@ footer {
     height: 200px;
     width: 229px;
     border-radius: 70%;
+    padding-top: 10%;
     margin-left: 35px; }
 
   .para-aboutme {
@@ -271,6 +272,13 @@ footer {
     height: 250px;
     background-color: rgba(8, 8, 8, 0.747); } }
 @media only screen and (max-width: 1000px) {
+  .headings {
+    text-align: center;
+    padding-top: 15%;
+    font-size: 35px;
+    color: white;
+    font-family: 'Kaushan Script', cursive; }
+
   .head {
     margin-top: 7%;
     margin-left: 25%;
@@ -288,19 +296,18 @@ footer {
   .aboutme-box {
     background-color: rgba(8, 8, 8, 0.747);
     height: 800px;
-    width: 70%;
+    width: 80%;
     color: white;
-    margin-top: 13%;
-    margin-left: 16%;
-    margin-right: 16%; }
+    margin-top: 20%;
+    margin-left: 10%;
+    margin-right: 13%; }
 
   .imgofme {
     height: 150px;
     margin-left: 33%; }
 
   .myimg {
-    width: 200px;
-    border-radius: 30%; }
+    width: 200px; }
 
   .para-aboutme {
     font-family: OCR A Std, monospace;
@@ -439,10 +446,10 @@ footer {
 
   .para-aboutme {
     font-family: OCR A Std, monospace;
-    font-size: 17px;
+    font-size: 19px;
     padding-top: 0px;
-    padding-left: 16%;
-    margin-right: 16%; }
+    padding-left: 9%;
+    margin-right: 10%; }
 
   .container2 {
     display: grid;
@@ -458,12 +465,42 @@ footer {
   .edu-containers {
     background-color: rgba(8, 8, 8, 0.747);
     font-family: monospace;
-    font-size: 17px;
+    font-size: 19px;
     border-radius: 15%;
     padding-left: 7%;
     padding-right: 7%;
     margin-bottom: 10%;
     width: 100%;
-    height: 1000px; } }
+    height: 1000px; }
+
+  .container3 {
+    display: grid;
+    grid-template-columns: 100%;
+    grid-gap: 20px;
+    margin-left: 10%; }
+
+  .project-containers {
+    background-color: rgba(8, 8, 8, 0.747);
+    font-family: monospace;
+    font-size: 20px;
+    border-radius: 5%;
+    padding-left: 10%;
+    padding-right: 10%;
+    height: 350px;
+    width: 100%; }
+
+  .container4 {
+    display: grid;
+    grid-template-columns: 45% 45%;
+    grid-gap: 20px;
+    margin: 5%; }
+
+  footer {
+    width: 100%;
+    margin-top: 7%;
+    font-size: 14px;
+    height: 25px;
+    background-color: rgba(8, 8, 8, 0.747);
+    text-align: center; } }
 
 /*# sourceMappingURL=main.css.map */
