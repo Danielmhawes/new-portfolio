@@ -279,8 +279,8 @@
         font-size       : 20px;
         height          : 8%;
         background-color: #10151a00;
-        padding-left    : 8%;
-        padding-right   : 8%;
+        padding-left    : 3%;
+        padding-right   : 0%;
         position        : fixed;
         color           : black;
     }
@@ -289,9 +289,9 @@
         display       : inline-flex;
         padding-top   : 1.1%;
         width         : 50%;
-        letter-spacing: 0px;
+        letter-spacing: 1px;
         padding-left  : 5%;
-        font-size     : 20px;
+        font-size     : 19px;
         color         : white;
 
     }
@@ -301,7 +301,7 @@
         cursor  : pointer;
         position: sticky;
         top     : 2%;
-        right   : 2%;
+        right   : 1%;
     }
 
     .navtop {
@@ -312,10 +312,10 @@
     .navtop a {
         background-color: rgba(8, 8, 8, 0.747);
         display         : block;
-        border          : 1px white solid;
+        border          : 1px white dotted;
         margin          : 0;
         line-height     : 50px;
-        margin-left     : 50%;
+       
     }
 
     #toggle:checked+.navtop {
@@ -437,4 +437,61 @@
         text-align      : center;
     }
 
+}
+
+@media only screen and (max-width: 450px) {
+    .menu {
+        display       : inline-flex;
+        padding-top   : 1.1%;
+        width         : 50%;
+        letter-spacing: 1px;
+        padding-left  : 5%;
+        font-size     : 19px;
+        color         : white;
+
+    }
+
+    label {
+        display : block;
+        cursor  : pointer;
+        position: sticky;
+        top     : 2%;
+        right   : 1%;
+    }
+    .navtop a {
+        background-color: rgba(8, 8, 8, 0.911);
+        display         : block;
+        border          : 1px white dotted;
+        margin          : 0;
+        line-height     : 50px;
+       
+    }
+
+    .aboutme-box {
+        background-color: rgba(8, 8, 8, 0.747);
+        height          : 760px;
+        width           : 89%;
+        color           : white;
+        margin-top      : 13%;
+        margin-left     : 5%;
+        margin-right    : 10%;
+    }
+
+    .imgofme {
+        height     : 120px;
+        margin-left: 25%;
+    }
+
+    .myimg {
+        width        : 170px;
+        border-radius: 30%;
+    }
+
+    .para-aboutme {
+        font-family : OCR A Std, monospace;
+        font-size   : 17px;
+        padding-top : 0px;
+        padding-left: 9%;
+        margin-right: 10%;
+    }
 }

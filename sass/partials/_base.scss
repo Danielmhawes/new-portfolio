@@ -60,6 +60,20 @@ nav {
     border        : 2px white;
 }
 
+//Styling the hamburger menu icon
+label{
+    width: 26px;
+    margin: 0 20px 0 0;
+    font-size: 26px;
+    line-height: 60px;
+    display: none;
+    float: left;
+    color:white;
+}
+#toggle{
+    display: none;
+}
+
 
 
 // styling of the header section 
