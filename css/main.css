@@ -58,6 +58,9 @@ a:hover {
   color: white;
   font-family: 'Kaushan Script', cursive; }
 
+.fa-arrow-circle-up {
+  font-size: 20px; }
+
 nav {
   width: 100%;
   font-family: 'Kaushan Script', cursive;
@@ -72,7 +75,7 @@ nav {
 .menu {
   display: inline-flex;
   padding-top: 1.1%;
-  width: 19%;
+  width: 16%;
   letter-spacing: 0px;
   padding-left: 5%;
   font-size: 20px;
@@ -199,7 +202,19 @@ label {
   width: 70%;
   padding-top: 7%; }
 
-.fa {
+.fa-phone {
+  font-size: 100px;
+  text-align: center; }
+
+.fa-envelope-o {
+  font-size: 100px;
+  text-align: center; }
+
+.fa-github-square {
+  font-size: 100px;
+  text-align: center; }
+
+.fa-linkedin-square {
   font-size: 100px;
   text-align: center; }
 
@@ -219,6 +234,24 @@ footer {
   height: 25px;
   background-color: rgba(8, 8, 8, 0.747);
   text-align: center; }
+
+#back2top-btn {
+  display: none;
+  position: fixed;
+  bottom: 20px;
+  right: 30px;
+  z-index: 99;
+  font-size: 18px;
+  border: none;
+  outline: none;
+  background-color: rgba(85, 85, 85, 0.658);
+  color: white;
+  cursor: pointer;
+  padding: 15px;
+  border-radius: 4px; }
+
+#back2top-btn:hover {
+  background-color: rgba(0, 0, 0, 0.63); }
 
 @media only screen and (max-width: 1300px) {
   * {
@@ -416,7 +449,19 @@ footer {
     margin-left: 7%;
     margin-top: 5%; }
 
-  .fa {
+  .fa-phone {
+    font-size: 80px;
+    text-align: center; }
+
+  .fa-envelope-o {
+    font-size: 80px;
+    text-align: center; }
+
+  .fa-github-square {
+    font-size: 80px;
+    text-align: center; }
+
+  .fa-linkedin-square {
     font-size: 80px;
     text-align: center; }
 
@@ -465,9 +510,9 @@ footer {
   .menu {
     display: inline-flex;
     padding-top: 2%;
-    width: 19%;
+    width: 16%;
     letter-spacing: 0px;
-    padding-left: 5%;
+    padding-left: 0%;
     font-size: 16px;
     color: white; }
 
@@ -500,7 +545,22 @@ footer {
     padding-top: 7%;
     margin-right: 2%; }
 
-  .fa {
+  .fa-phone {
+    padding-top: 1%;
+    font-size: 70px;
+    text-align: center; }
+
+  .fa-envelope-o {
+    padding-top: 1%;
+    font-size: 70px;
+    text-align: center; }
+
+  .fa-github-square {
+    padding-top: 1%;
+    font-size: 70px;
+    text-align: center; }
+
+  .fa-linkedin-square {
     padding-top: 1%;
     font-size: 70px;
     text-align: center; } }

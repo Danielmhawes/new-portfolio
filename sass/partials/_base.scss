@@ -32,6 +32,9 @@ a:hover {
     font-family: 'Kaushan Script', cursive;
 }
 
+.fa-arrow-circle-up{
+    font-size: 20px;
+}
 
 
 // navigation styling
@@ -52,7 +55,7 @@ nav {
 .menu {
     display       : inline-flex;
     padding-top   : 1.1%;
-    width         : 19%;
+    width         : 16%;
     letter-spacing: 0px;
     padding-left  : 5%;
     font-size     : 20px;
@@ -248,11 +251,26 @@ label{
 // styling of the contact section 
 
 
-.fa {
+
+.fa-phone{
+    font-size : 100px;
+    text-align: center;
+
+}
+.fa-envelope-o{
+    font-size : 100px;
+    text-align: center;
+
+}
+.fa-github-square{
+    font-size : 100px;
+    text-align: center;
+
+}
+.fa-linkedin-square{
     font-size : 100px;
     text-align: center;
 }
-
 .contact {
     padding-top     : 20%;
     text-align      : center;

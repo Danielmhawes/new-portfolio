@@ -240,9 +240,26 @@
 
     }
 
-    .fa {
+    
+    .fa-phone{
         font-size : 80px;
         text-align: center;
+    
+    }
+    .fa-envelope-o{
+        font-size : 80px;
+        text-align: center;
+    
+    }
+    .fa-github-square{
+        font-size : 80px;
+        text-align: center;
+    
+    }
+    .fa-linkedin-square{
+        font-size : 80px;
+        text-align: center;
+    
     }
 
     .contact {
@@ -300,9 +317,9 @@
     .menu {
         display       : inline-flex;
         padding-top   : 2%;
-        width         : 19%;
+        width         : 16%;
         letter-spacing: 0px;
-        padding-left  : 5%;
+        padding-left  : 0%;
         font-size     : 16px;
         color         : white;
     }
@@ -341,10 +358,29 @@
 
     }
 
-    .fa {
+    .fa-phone{
         padding-top: 1%;
         font-size  : 70px;
         text-align : center;
+    
+    }
+    .fa-envelope-o{
+        padding-top: 1%;
+        font-size  : 70px;
+        text-align : center;
+    
+    }
+    .fa-github-square{
+        padding-top: 1%;
+        font-size  : 70px;
+        text-align : center;
+    
+    }
+    .fa-linkedin-square{
+        padding-top: 1%;
+        font-size  : 70px;
+        text-align : center;
+    
     }
 
 }
@@ -744,7 +780,5 @@
         background-color: rgba(8, 8, 8, 0.747);
         text-align      : center;
     }
-
-
 
 }
