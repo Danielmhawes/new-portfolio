@@ -8,7 +8,7 @@
         box-sizing     : border-box;
         scroll-behavior: smooth;
     }
-    
+
     body {
         top                  : 0;
         margin               : 0;
@@ -19,12 +19,12 @@
         background-size      : cover;
         color                : white;
     }
-    
+
     a {
         text-decoration: none;
         color          : white;
     }
-    
+
     a:hover {
         color      : grey;
         border-left: 3px black;
@@ -112,7 +112,7 @@
         box-sizing     : border-box;
         scroll-behavior: smooth;
     }
-    
+
     body {
         top                  : 0;
         margin               : 0;
@@ -123,16 +123,17 @@
         background-size      : cover;
         color                : white;
     }
-    
+
     a {
         text-decoration: none;
         color          : white;
     }
-    
+
     a:hover {
         color      : grey;
         border-left: 3px black;
     }
+
     .headings {
         text-align : center;
         padding-top: 15%;
@@ -262,7 +263,7 @@
         box-sizing     : border-box;
         scroll-behavior: smooth;
     }
-    
+
     body {
         top                  : 0;
         margin               : 0;
@@ -273,16 +274,17 @@
         background-size      : cover;
         color                : white;
     }
-    
+
     a {
         text-decoration: none;
         color          : white;
     }
-    
+
     a:hover {
         color      : grey;
         border-left: 3px black;
     }
+
     nav {
         width           : 100%;
         font-family     : 'Kaushan Script', cursive;
@@ -352,7 +354,7 @@
         box-sizing     : border-box;
         scroll-behavior: smooth;
     }
-    
+
     body {
         top                  : 0;
         margin               : 0;
@@ -363,16 +365,17 @@
         background-size      : cover;
         color                : white;
     }
-    
+
     a {
         text-decoration: none;
         color          : white;
     }
-    
+
     a:hover {
         color      : grey;
         border-left: 3px black;
     }
+
     nav {
         width           : 100%;
         font-family     : 'Kaushan Script', cursive;
@@ -540,31 +543,7 @@
 }
 
 @media only screen and (max-width: 450px) {
-    * {
-        box-sizing     : border-box;
-        scroll-behavior: smooth;
-    }
-    
-    body {
-        top                  : 0;
-        margin               : 0;
-        padding              : 0;
-        background-image     : url(../img/hero.jpg);
-        background-attachment: fixed;
-        background-repeat    : no-repeat;
-        background-size      : cover;
-        color                : white;
-    }
-    
-    a {
-        text-decoration: none;
-        color          : white;
-    }
-    
-    a:hover {
-        color      : grey;
-        border-left: 3px black;
-    }
+
     .menu {
         display       : inline-flex;
         padding-top   : 1.1%;
@@ -594,12 +573,12 @@
     }
 
     .headings {
-        text-align : center;
-        padding-top: 0%;
-        font-size  : 30px;
-        color      : white;
-        font-family: 'Kaushan Script', cursive;
-        background-color:rgba(8, 8, 8, 0.911) ;
+        text-align      : center;
+        padding-top     : 0%;
+        font-size       : 30px;
+        color           : white;
+        font-family     : 'Kaushan Script', cursive;
+        background-color: rgba(8, 8, 8, 0.911);
     }
 
     .head-box {
@@ -686,12 +665,12 @@
         border-radius: 30%;
         margin-left  : 23%;
     }
-    
+
     .edu-containers {
         background-color: rgba(8, 8, 8, 0.747);
         font-family     : monospace;
         font-size       : 16px;
-        border-radius   : 15%;
+        border-radius   : 0%;
         padding-left    : 7%;
         padding-right   : 7%;
         margin-bottom   : 10%;
@@ -699,7 +678,7 @@
         height          : 1000px;
     }
 
-    .section-3{
+    .section-3 {
         margin-top: 25%;
     }
 
@@ -722,22 +701,23 @@
     }
 
     .proj-img {
-        width: 100%;
+        width : 100%;
         height: 150px;
     }
 
-    .section-4{
+    .section-4 {
         margin-top: 25%;
     }
+
     .container4 {
         display              : grid;
         grid-template-columns: 40% 40%;
         grid-gap             : 20px;
-        margin-left               : 15%;
-        margin-right: 10%;
+        margin-left          : 15%;
+        margin-right         : 10%;
     }
 
-    .section-5{
+    .section-5 {
         margin-top: 25%;
     }
 
@@ -746,7 +726,7 @@
         grid-template-columns: 50% 50%;
         grid-gap             : 9px;
         padding-left         : 0%;
-        margin-left: 5%;
+        margin-left          : 5%;
     }
 
     .contact-text {
