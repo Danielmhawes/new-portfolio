@@ -2,10 +2,10 @@
 window.onscroll = function() {scrollFunction()};
 
 function scrollFunction() {
-    if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
+    if (document.body.scrollTop > 30 || document.documentElement.scrollTop > 30) {
         document.getElementById("back2top-btn").style.display = "block";
     } else {
-        document.getElementById("backtotop-btn").style.display = "none";
+        document.getElementById("back2top-btn").style.display = "none";
     }
 }
 
