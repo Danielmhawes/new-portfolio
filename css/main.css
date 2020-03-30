@@ -221,6 +221,28 @@ footer {
   text-align: center; }
 
 @media only screen and (max-width: 1300px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+
+  body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+
+  a {
+    text-decoration: none;
+    color: white; }
+
+  a:hover {
+    color: grey;
+    border-left: 3px black; }
+
   .container1 {
     display: grid;
     grid-template-columns: 20% 70%;
@@ -284,6 +306,28 @@ footer {
     height: 250px;
     background-color: rgba(8, 8, 8, 0.747); } }
 @media only screen and (max-width: 1000px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+
+  body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+
+  a {
+    text-decoration: none;
+    color: white; }
+
+  a:hover {
+    color: grey;
+    border-left: 3px black; }
+
   .headings {
     text-align: center;
     padding-top: 15%;
@@ -385,6 +429,28 @@ footer {
   .contact-text {
     font-size: 12px; } }
 @media only screen and (max-width: 800px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+
+  body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+
+  a {
+    text-decoration: none;
+    color: white; }
+
+  a:hover {
+    color: grey;
+    border-left: 3px black; }
+
   nav {
     width: 100%;
     font-family: 'Kaushan Script', cursive;
@@ -439,6 +505,28 @@ footer {
     font-size: 70px;
     text-align: center; } }
 @media only screen and (max-width: 650px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+
+  body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+
+  a {
+    text-decoration: none;
+    color: white; }
+
+  a:hover {
+    color: grey;
+    border-left: 3px black; }
+
   nav {
     width: 100%;
     font-family: 'Kaushan Script', cursive;
@@ -575,6 +663,28 @@ footer {
     background-color: rgba(8, 8, 8, 0.747);
     text-align: center; } }
 @media only screen and (max-width: 450px) {
+  * {
+    box-sizing: border-box;
+    scroll-behavior: smooth; }
+
+  body {
+    top: 0;
+    margin: 0;
+    padding: 0;
+    background-image: url(../img/hero.jpg);
+    background-attachment: fixed;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color: white; }
+
+  a {
+    text-decoration: none;
+    color: white; }
+
+  a:hover {
+    color: grey;
+    border-left: 3px black; }
+
   .menu {
     display: inline-flex;
     padding-top: 1.1%;
