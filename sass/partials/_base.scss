@@ -1,4 +1,4 @@
-* {
+*{
     box-sizing     : border-box;
     scroll-behavior: smooth;
 }
@@ -37,9 +37,8 @@ a:hover {
 }
 
 
-// navigation styling
 
-
+// navigation stylings
 nav {
     width           : 100%;
     font-family     : 'Kaushan Script', cursive;
@@ -63,7 +62,9 @@ nav {
     border        : 2px white;
 }
 
-//Styling the hamburger menu icon
+
+
+//Styling the hamburger menu icons
 label{
     width: 26px;
     margin: 0 20px 0 0;
@@ -80,9 +81,6 @@ label{
 
 
 // styling of the header section 
-
-
-
 .main-head {
     font-family: 'Kaushan Script', cursive;
     height     : 700px;
@@ -120,11 +118,8 @@ label{
 }
 
 
+
 // about me section 
-
-
-
-
 .aboutme-box {
     background-color: rgba(8, 8, 8, 0.747);
     height          : 370px;
@@ -156,15 +151,10 @@ label{
 
 
 // styling of the education section
-
-
-
 .section-2 {
     margin-top: 10%;
     color     : white;
     width     : 100%;
-    // height : 35.5em;
-
 }
 
 .sub-headings {
@@ -194,11 +184,7 @@ label{
 
 
 
-
 // styling of the project section
-
-
-
 .project-containers {
     background-color: rgba(8, 8, 8, 0.747);
     font-family     : monospace;
@@ -218,10 +204,6 @@ label{
 
 
 // styling of the skills and abilities section 
-
-
-
-
 .section-4 {
     margin-top: 8%;
     color     : white;
@@ -248,9 +230,9 @@ label{
 }
 
 
+
+
 // styling of the contact section 
-
-
 
 .fa-phone{
     font-size : 100px;
@@ -283,9 +265,9 @@ label{
 }
 
 
+
+
 // styling of the footer section 
-
-
 footer {
     width           : 100%;
     margin-top      : 7%;

@@ -1,3 +1,5 @@
+
+
 // responsive design
 
 
@@ -106,7 +108,8 @@
 
 }
 
-// For 1000px devices
+
+// Responsiveness For 1000px devices 
 @media only screen and (max-width: 1000px) {
     * {
         box-sizing     : border-box;
@@ -240,26 +243,29 @@
 
     }
 
-    
-    .fa-phone{
+
+    .fa-phone {
         font-size : 80px;
         text-align: center;
-    
+
     }
-    .fa-envelope-o{
+
+    .fa-envelope-o {
         font-size : 80px;
         text-align: center;
-    
+
     }
-    .fa-github-square{
+
+    .fa-github-square {
         font-size : 80px;
         text-align: center;
-    
+
     }
-    .fa-linkedin-square{
+
+    .fa-linkedin-square {
         font-size : 80px;
         text-align: center;
-    
+
     }
 
     .contact {
@@ -274,7 +280,9 @@
     }
 }
 
-// For 800px devices
+
+
+// responsiveness For 800px devices
 @media only screen and (max-width: 800px) {
     * {
         box-sizing     : border-box;
@@ -358,33 +366,38 @@
 
     }
 
-    .fa-phone{
+    .fa-phone {
         padding-top: 1%;
         font-size  : 70px;
         text-align : center;
-    
+
     }
-    .fa-envelope-o{
+
+    .fa-envelope-o {
         padding-top: 1%;
         font-size  : 70px;
         text-align : center;
-    
+
     }
-    .fa-github-square{
+
+    .fa-github-square {
         padding-top: 1%;
         font-size  : 70px;
         text-align : center;
-    
+
     }
-    .fa-linkedin-square{
+
+    .fa-linkedin-square {
         padding-top: 1%;
         font-size  : 70px;
         text-align : center;
-    
+
     }
 
 }
 
+
+// responsiveness For 650px devices
 @media only screen and (max-width: 650px) {
     * {
         box-sizing     : border-box;
@@ -566,6 +579,7 @@
         grid-gap             : 20px;
         margin               : 5%;
     }
+
     .contact-text {
         font-size: 12px;
     }
@@ -581,6 +595,9 @@
 
 }
 
+
+
+// responsiveness For 450px devices
 @media only screen and (max-width: 450px) {
 
     .menu {
