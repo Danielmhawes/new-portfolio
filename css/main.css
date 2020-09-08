@@ -6,8 +6,8 @@
 
 .container2 {
   display: grid;
-  grid-template-columns: 33% 33% 33%;
-  grid-gap: 0px;
+  grid-template-columns: 25% 25% 25% 25%;
+  grid-gap: -100px;
   margin-left: 3%; }
 
 .container3 {
@@ -156,7 +156,7 @@ label {
   text-align: center; }
 
 .edu-img {
-  width: 216px;
+  width: 140px;
   margin: 15%;
   border-radius: 50%; }
 
@@ -169,6 +169,18 @@ label {
   padding-right: 10%;
   width: 90%;
   height: 1200px; }
+
+.yl {
+  margin-top: 75px; }
+
+.ylpara {
+  width: 200px; }
+
+.yl-heading {
+  font-size: 19px; }
+
+.edu-dates {
+  font-size: 17px; }
 
 .project-containers {
   background-color: rgba(8, 8, 8, 0.747);
