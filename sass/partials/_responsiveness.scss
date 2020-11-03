@@ -3,7 +3,20 @@
 // responsive design
 
 
-//biggest mobile view for devices of 1250px
+//biggest mobile view for devices of 1300px
+
+@media only screen and (max-width: 1400px) {
+    .edu-containers {
+        background-color: rgba(8, 8, 8, 0.747);
+        font-family     : monospace;
+        font-size       : 20px;
+        border-radius   : 15%;
+        padding-left    : 10%;
+        padding-right   : 10%;
+        width           : 90%;
+        height          : 1500px;
+    }
+}
 
 @media only screen and (max-width: 1300px) {
     * {
@@ -67,13 +80,13 @@
 
     .container2 {
         display              : grid;
-        grid-template-columns: 33% 33% 33%;
+        grid-template-columns: 25% 25% 25% 25%;
         grid-gap             : 0px;
         margin-left          : 3%;
     }
 
     .edu-img {
-        width        : 200px;
+        width        : 160px;
         margin       : 10%;
         border-radius: 50%;
     }
@@ -86,7 +99,7 @@
         padding-left    : 10%;
         padding-right   : 10%;
         width           : 90%;
-        height          : 1300px;
+        height          : 1500px;
     }
 
     .container5 {
@@ -108,6 +121,27 @@
 
 }
 
+
+@media only screen and (max-width: 1050px){
+    .edu-img {
+        width        : 180px;
+        margin       : 10%;
+        border-radius: 50%;
+    }
+
+    .edu-containers {
+        background-color: rgba(8, 8, 8, 0.747);
+        font-family     : monospace;
+        font-size       : 18px;
+        border-radius   : 15%;
+        padding-left    : 10%;
+        padding-right   : 10%;
+        margin-bottom   : 10%;
+        width           : 100%;
+        height          : 1290px;
+    
+    }
+}
 
 // Responsiveness For 1000px devices 
 @media only screen and (max-width: 1000px) {
@@ -212,6 +246,21 @@
         margin-bottom   : 10%;
         width           : 100%;
         height          : 1000px;
+    
+    }
+    .yl-about{
+        margin-left: 30%;
+    }
+    .yl-dates{
+        margin-left: 30%;
+
+    }
+    .yl-head{
+        margin-left: 30%;
+    }
+    .yl-para {
+        margin-left: 30%;
+        
     }
 
     .container3 {
@@ -346,6 +395,21 @@
         width        : 200px;
         border-radius: 30%;
         margin-left  : 30%;
+    }
+
+    .yl-about{
+        margin-left: 30%;
+    }
+    .yl-dates{
+        margin-left: 30%;
+
+    }
+    .yl-head{
+        margin-left: 30%;
+    }
+    .yl-para {
+        margin-left: 30%;
+        
     }
 
     .container5 {
@@ -553,6 +617,21 @@
         height          : 1000px;
     }
 
+    .yl-about{
+        margin-left: 20%;
+    }
+    .yl-dates{
+        margin-left: 20%;
+
+    }
+    .yl-head{
+        margin-left: 20%;
+    }
+    .yl-para {
+        margin-left: 20%;
+        
+    }
+
     .container3 {
         display              : grid;
         grid-template-columns: 100%;
@@ -700,6 +779,21 @@
         margin-top: 25%;
         color     : white;
         width     : 100%;
+    }
+
+    .yl-about{
+        margin-left: 10%;
+    }
+    .yl-dates{
+        margin-left: 10%;
+
+    }
+    .yl-head{
+        margin-left: 10%;
+    }
+    .yl-para {
+        margin-left: 10%;
+        
     }
 
     .container2 {
